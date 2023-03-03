@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>使用JavaScript代码调用百度地图</title>
 </head>
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=D874c49a728d76c2e075dd33658f0864"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.0&ak=D874c49a728d76c2e075dd33658f0864"></script>
 
 <body>
     <h2>使用JavaScript代码调用百度地图</h2>
@@ -22,7 +22,7 @@
                 var point = new BMap.Point(116.404, 39.915);    // 创建点坐标
                 baiduMap.centerAndZoom(point,15);                     // 初始化地图,设置中心点坐标和地图级别。
                 baiduMap.enableScrollWheelZoom();                            //启用滚轮放大缩小，默认禁用
-                baiduMap.disableDragging();                            //禁用地图拖拽
+               // baiduMap.disableDragging();                            //禁用地图拖拽
             };
         intBaiduMap("baiduMap");
     };

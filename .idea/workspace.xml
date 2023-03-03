@@ -2,199 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c5dada-902a-4ff6-8dff-a8fb62a2bb1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jQuery/01_jQuery引入方式/jQuery引入方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/01_jQuery引入方式/jQuery快速使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/02_jQuery两把利器 $() 或 jQuery()/jQuery两把利器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.1基本选择器/1.1_基本选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.1基本选择器/1.2_id选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.1基本选择器/1.3_class选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.1基本选择器/1.4_通配符选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.1基本选择器/1.5_并集选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.1基本选择器/1.6_交集选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.2层级选择器/1.1_子代选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.2层级选择器/1.2_后代选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.2层级选择器/1.3_兄弟选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.2层级选择器/1.4_兄弟后面的兄弟选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/1基本筛选器(表格行筛选)/1_实现隔行偶数行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/1基本筛选器(表格行筛选)/2_实现隔行奇数行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/1基本筛选器(表格行筛选)/3_让表格的第一行的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/1基本筛选器(表格行筛选)/4_让表格的最后一行的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/1基本筛选器(表格行筛选)/5_实现让下标（从0开始）小于2的行数的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/1基本筛选器(表格行筛选)/6_实现让下标（从0开始）大于2的行数的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/1基本筛选器(表格行筛选)/7_实现让下标（从0开始）等于2的行数的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/1基本筛选器(表格行筛选)/8_实现让下标（从0开始）不等于2的行数的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/2内容筛选器（表格内容筛选）/1_实现让内容为“男”的单元格的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/2内容筛选器（表格内容筛选）/2_内容为span标签的单元格的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/2内容筛选器（表格内容筛选）/3_内容为空的单元格的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/2内容筛选器（表格内容筛选）/4_内容不为空的单元格的背景变为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/3属性和属性值筛选器/1_查找herflang属性的标签元素，设置其背景为红色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/3属性和属性值筛选器/2_查找hreflang属性值是en的所有超链接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/3属性和属性值筛选器/3_查找hreflang属性值不是en的所有超链接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/3属性和属性值筛选器/4_查找hreflang属性值是en或者以en开头的所有超链接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/3属性和属性值筛选器/5_查找hreflang属性值是以给定值CN结尾的元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/3属性和属性值筛选器/6_属性具有包含一个给定的子字符串CN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/3属性和属性值筛选器/7_属性值用空格分隔的值中包含一个给定值为CN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/3属性和属性值筛选器/8_选择hreflang属性为zh-CN，title属性为Chinese的超链接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/4可见性筛选器/1_让隐藏的段落显示出来.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/4可见性筛选器/2_让显示的段落隐藏起来.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/5子元素筛选器/1_选择所有父级元素ul下的第一个子元素li.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/5子元素筛选器/2_选择所有父级元素ul下的最后一个子元素li.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/5子元素筛选器/2_选择所有父级元素ul下的第二个子元素li.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/6表单类型选择器/1表单类型选择器/1_选中表单中的文本框和密码框等.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/6表单类型选择器/1表单类型选择器/2_选中复选框、单选框，然后输出标签信息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/1_选择器/1.3过滤选择器/6表单类型选择器/2表单状态选择器/1输出表单获取焦点、表单选中、表单禁用、表单列表项选中的状态所在的标签信息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/2_工具方法/1遍历数组和对象 $.each/1_$.each方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/2_工具方法/1遍历数组和对象 $.each/2_遍历数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/2_工具方法/1遍历数组和对象 $.each/3_遍历对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/2_工具方法/2去掉空格 $.trim方法/去掉字符串起始和结尾的空格.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/2_工具方法/3确定JavaScript 对象的类型$.type/确定JavaScript 对象的类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/2_工具方法/4判断否为一个数组 $.isArray/判断否为一个数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/2_工具方法/5指定对象是否为一个函数/指定对象是否为一个函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/3ajax/1 $jax方法/1_$.ajax GET请求方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/3ajax/1 $jax方法/2_$.ajax POST请求方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/3ajax/2$.get方法/$.get方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/03_jQuery核心函数/3ajax/3$.post方法/$.post方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/1 属性/attr() 专门操作属性值不是布尔值的属性/1 attr()修改属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/1 属性/attr() 专门操作属性值不是布尔值的属性/2 attr()读取属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/1 属性/prop()  专门操作属性值为布尔值的属性/设置复选框的状态为选中状态.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/1 属性/prop()  专门操作属性值为布尔值的属性/读取复选框的选中状态并输出.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/1 属性/val()  主要用于获取表单元素的值和设置表单元素的值/设置表单元素的值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/1 属性/val()  主要用于获取表单元素的值和设置表单元素的值/读取文本框的值并输出.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/2 样式/1_css()/设置样式属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/2 样式/1_css()/读取样式属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/2 样式/2_addClass() 为每个匹配的元素添加指定的样式类名/为所有的li添加样式beauty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/2 样式/3_removeClass() 移除元素匹配样式/移除集合中每个匹配元素上一个，多个或全部样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/2 样式/4_hasClass() 判断元素是否包含某个给定的样式类/确定任何一个匹配元素是否有被分配给定的样式类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/2 样式/5_toggleClass()  元素上添加或删除一个或多个样式类/元素上添加或删除一个或多个样式类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/3 尺寸/演示所有尺寸.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/4 位置/1_offset()  相对页面左上角的坐标/相对页面左上角的坐标.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/4 位置/2 position() 相对于父元素左上角的坐标/相对于父元素左上角的坐标.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/4 位置/3 scrollLeft() 读取 设置滚动条的X坐标，该方法读写合一/读取 设置滚动条的X坐标，该方法读写合一.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/04_ jQuery核心对象/4 位置/4 scrollTop() 读取/设置滚动条的Y坐标，该方法读写合一/读取/设置滚动条的Y坐标，该方法读写合一.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/1 DOM内部插入/1 text（）设置和获取元素的文本内容/获取元素的文本内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/1 DOM内部插入/1 text（）设置和获取元素的文本内容/设置元素的文本内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/1 DOM内部插入/2 html() 设置和获取元素的html内容/获取元素的html内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/1 DOM内部插入/2 html() 设置和获取元素的html内容/设置元素的html内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/1 DOM内部插入/3 append（） 元素内部的最后面插入指定内容/元素内部的最后面插入指定内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/1 DOM内部插入/4 appendTo() 将指定的内容追加到当前匹配的所有元素的最后面/将指定的内容追加到当前匹配的所有元素的最后面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/2 DOM外部插入/1 after() 匹配的元素后面添加指定的内容 作为其兄弟节点/匹配的元素后面添加指定的内容 作为其兄弟节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/2 DOM外部插入/2 before() 匹配的元素前面添加指定的内容 作为其兄弟节点/匹配的元素前面添加指定的内容 作为其兄弟节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/2 DOM外部插入/3 insertAfter() .他与after()实现同样的功能。主要的不同是语法，特别是插入内容和目标的位置/元素后面插入参数所指定的内容，作为其兄弟节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/2 DOM外部插入/4 insertBefore()  和.insertBefore()实现同样的功能。主要的不同是语法，特别是插入内容和目标的位置/匹配的元素前面添加指定的内容 作为其兄弟节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/3 DOM移除/1 empty() 删除所有匹配元素的子元素/删除所有匹配元素的子元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/3 DOM移除/2 remove() 删除所有匹配的元素  注意：同时移除元素上的事件及 jQuery 数据/删除所有匹配元素的子元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/4 DOM替换/1 replaceWith() 替换所匹配的元素/替换所匹配的元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/4 DOM替换/2 replaceAll() 和.replaceWith()功能类似，但是目标和源相反。/替换所匹配的元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/5 DOM遍历/1 parent() 匹配元素的父元素并进行筛选/匹配元素的父元素并进行筛选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/5 DOM遍历/2 children() 匹配元素的子元素并进行筛选/匹配元素的子元素并进行筛选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/5 DOM遍历/3 prev() 匹配元素紧邻的前一个兄弟元素/匹配元素紧邻的前一个兄弟元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/5 DOM遍历/4 prevAll() 匹配元素的所有前面的兄弟元素/匹配元素的所有前面的兄弟元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/5 DOM遍历/5 next() 匹配元素紧邻的后一个兄弟元素/匹配元素紧邻的后一个兄弟元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/5 DOM遍历/6 nextAll() 匹配元素的所有后面的兄弟元素/匹配元素的所有后面的兄弟元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/05-DOM操作/5 DOM遍历/7 siblings() 匹配元素的所有兄弟元素/匹配元素的所有兄弟元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/1 浏览器事件/1 resize() 浏览器尺寸事件/resize 浏览器尺寸事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/1 浏览器事件/2 scroll() 浏览器滚动条事件/scroll() 浏览器滚动条事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/1 on  添加单击事件/添加单击事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/2 off()  移除一个事件/移除一个事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/3 事件委托/1 delegate() 设置事件委托/delegate() 设置事件委托.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/3 事件委托/2 undelegate()  移除事件委托/undelegate()  移除事件委托.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/4 表单事件/1 focus() 聚焦时触发/focus() 聚焦时触发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/4 表单事件/2 blur() 失去焦点时触发/blur() 失去焦点时触发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/4 表单事件/3 change() 内容改变时触发/change() 内容改变时触发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/4 表单事件/4 select() 被选择是触发/select() 被选择是触发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/4 表单事件/5 submit() 提交表单时触发/submit() 提交表单时触发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/1 click() 鼠标单击事件/click() 鼠标单击事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/10 hover() 同时绑定 mouseenter和 mouseleave鼠标进入和离开事件/同时绑定 mouseenter和 mouseleave鼠标进入和离开.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/2 dblclick() 鼠标双击事件/dblclick() 鼠标双击事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/3 mousedown() 鼠标左键按下时调用/mousedown() 鼠标左键按下时调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/4 mouseup() 当鼠标左键松开的时候调用/mouseup() 当鼠标左键松开的时候调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/5 mouseenter()  当鼠标进入目标元素的时候调用/当鼠标进入目标元素的时候调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/6 mouseleave()  当鼠标离开目标元素的时候调用/当鼠标离开目标元素的时候调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/7 mouseover() 当鼠标进入目标元素的时候调用 冒泡 后代节点也会触发/mouseover() 当鼠标进入目标元素的时候调用 冒泡 后代节点也会触发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/8 mouseout() 当鼠标离开目标元素的时候调用 冒泡事件 后代也会触发/mouseout() 当鼠标离开目标元素的时候调用 冒泡事件 后代也会触发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/2 事件绑定/5 鼠标事件/9 mousemove()  当鼠标指针在元素内移动时触发/当鼠标指针在元素内移动时触发.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/6 键盘事件/1 keydown() 当键盘按键按下的时候调用/当键盘按键按下的时候调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/6 键盘事件/2 keyup() 当键盘按键松开的时候调用/当键盘按键松开的时候调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/06_事件/6 键盘事件/3 keypress()  当键盘按键按下的时候调用和keydown（）类似/当键盘按键按下的时候调用和keydown（）类似.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/1 去除空格和比较大小写.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/10 点击时 对文本内容进行关键词过滤.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/11 TextArea自适应文字行数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/12 全选全不选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/13 根据指定内容选中复选框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/14 动态添加下拉选项.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/15 动态删除下拉选项.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/16 下拉框联动效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/17 可输入下拉框效果按回车添加.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/18 avaScript对上传文件相关操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/19 移动鼠标图片放大镜.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/2 禁止输入.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/20 横向轮播效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/21 图片层叠轮播.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/22 点击图片缓缓放大.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/23 QQ相册横向流效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/24 表格内容的展开和折叠效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/25 内容超过元素宽度显示省略号.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/26 调整字体大小.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/27 文本段落的展开和收拢效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/28 关键字的高亮显示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/29 字幕上下间歇滚动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/3 关闭输入法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/30  模拟消息提示弹出框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/31 让层可以随意拖动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/32 遮罩层效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/33 Tab标签选项卡切换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/34 类似QQ消息窗口提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/35 打开链接时弹出确认框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/36 删除时弹出确认对话框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/36 打开指定大小的窗口.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/37 刷新iframe窗口.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/38 刷新当前页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/39 不弹出提示框关闭父窗口.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/4 禁止复制与粘贴.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/41 子窗口全屏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/42  永远都会带着框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/43 页面打印及预览指定区域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/44  实时显示当前时间.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/45 日期格式化成字符串.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/46 页面悬浮导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/47 下拉式导航菜单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/48 滑动门导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/49 树形菜单导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/5 文本自动滚动的效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/50 仿QQ菜单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/51 漂浮广告.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/52 随图片快速翻动幻灯代码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/53 页面五颜六色的雪花.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/54 获取当前地理坐标.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/56 HTML5版Js实现的MP3播放器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/57 等级星投票效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/6 密码强度实时验证.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/7 光标永远停留在文字最后.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/8 默认选择文本.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/9 获取复选框所有选中内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/extend/ContentState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/extend/animateManage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/extend/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/extend/strLen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/html/banViewSource.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/html/child.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/html/closeParent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/html/frames.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/html/updateParentWindow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/40 弹出窗口关闭时刷新父窗口.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/my.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/psu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/psu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/psu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/psu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/water.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/images/xixinliang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/sound/stubbornDream.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/学习导航" beforeDir="false" afterPath="$PROJECT_DIR$/学习导航" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -207,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/54 获取当前地理坐标.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="450">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html">
+        <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/54 获取当前地理坐标.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="700">
+              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -234,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/57 等级星投票效果.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="600">
+              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -289,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/9 获取复选框所有选中内容.html" />
         <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/14 动态添加下拉选项.html" />
         <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/15 动态删除下拉选项.html" />
         <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/16 下拉框联动效果.html" />
@@ -336,10 +145,11 @@
         <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/51 漂浮广告.html" />
         <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/52 随图片快速翻动幻灯代码.html" />
         <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/53 页面五颜六色的雪花.html" />
-        <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/54 获取当前地理坐标.html" />
-        <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html" />
         <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/56 HTML5版Js实现的MP3播放器.html" />
         <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/57 等级星投票效果.html" />
+        <option value="$PROJECT_DIR$/学习导航" />
+        <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/54 获取当前地理坐标.html" />
+        <option value="$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html" />
       </list>
     </option>
   </component>
@@ -458,7 +268,7 @@
       <workItem from="1677632331821" duration="25317000" />
       <workItem from="1677717239234" duration="10100000" />
       <workItem from="1677763388357" duration="3543000" />
-      <workItem from="1677804324516" duration="14608000" />
+      <workItem from="1677804324516" duration="18092000" />
     </task>
     <task id="LOCAL-00001" summary="'学习'">
       <created>1674874353474</created>
@@ -474,11 +284,18 @@
       <option name="project" value="LOCAL" />
       <updated>1674878187021</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="'jQuery基本操作（dom操作 jQuery核心对象 核心函数 及事件 和扩展工具 ）'">
+      <created>1677830806069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677830806069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81432000" />
+    <option name="totallyTimeSpent" value="84916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -507,7 +324,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.3295302" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28926176" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19664429" />
       <window_info x="582" y="74" width="372" height="676" id="Structure" order="2" side_tool="true" weight="0.24966443" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -521,6 +338,7 @@
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Eval Reset" order="11" weight="0.3293944" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Json Parser" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -533,7 +351,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="'学习'" />
     <MESSAGE value="''" />
-    <option name="LAST_COMMIT_MESSAGE" value="''" />
+    <MESSAGE value="'jQuery基本操作（dom操作 jQuery核心对象 核心函数 及事件 和扩展工具 ）'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'jQuery基本操作（dom操作 jQuery核心对象 核心函数 及事件 和扩展工具 ）'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -548,13 +367,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/18 avaScript对上传文件相关操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/19 移动鼠标图片放大镜.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -941,20 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/54 获取当前地理坐标.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/56 HTML5版Js实现的MP3播放器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -962,10 +760,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/学习导航">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/57 等级星投票效果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="600">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/54 获取当前地理坐标.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/7 jQuery工具扩展/55 使用JavaScript代码调用百度地图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
