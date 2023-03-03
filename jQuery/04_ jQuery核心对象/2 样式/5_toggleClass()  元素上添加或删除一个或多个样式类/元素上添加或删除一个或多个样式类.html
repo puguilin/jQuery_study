@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--
+        方法描述：为匹配的元素集合中的每个元素上添加或删除一个或多个样式类，取决于这个样式类是否存在。
+        注意：如果存在（不存在）就删除（添加）一个样式类
+        需求描述：当单击按钮的时候，隐藏div，再次单击按钮的时候，显示div
+    -->
+
+    <button>按钮</button>
+    <div>我是div</div>
+</body>
+<script>
+    $('button').click(function () {
+        $('div').toggleClass('hide');
+    });
+
+</script>
+<style>
+    .hide {
+        width: 100px;
+        height: 100px;
+        background: #925937;
+        display: none;
+    }
+
+</style>
+</html>

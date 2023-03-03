@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>替换所匹配的元素</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--方法介绍：.replaceAll()和.replaceWith()功能类似，但是目标和源相反。 -->
+    <!--需求描述：将ul下的所有li替换为p标签-->
+    <ul>
+        <li>列表项1</li>
+        <li>列表项2</li>
+        <li>列表项3</li>
+    </ul>
+
+</body>
+<script>
+    $('<p>我是段落</p>').replaceAll($('ul>li'));
+</script>
+</html>

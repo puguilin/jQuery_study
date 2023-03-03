@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>匹配的元素前面添加指定的内容 作为其兄弟节点</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<body>
+    <!--方法描述：.before()和.insertBefore()实现同样的功能。主要的不同是语法，
+    特别是插入内容和目标的位置。
+    对于 .before()，选择表达式在函数前面，参数是将要插入的内容。
+    对于 .insertBefore()，刚好相反，内容在方法前面，它将被放在参数里元素的前面。
+    -->
+    <!--需求描述：在div的前边插入一个段落-->
+    <div>我是div</div>
+
+</body>
+<script>
+    var content = '<p>我是段落</p>';
+    $(content).insertBefore($('div'));
+</script>
+</html>

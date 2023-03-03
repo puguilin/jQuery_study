@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>让隐藏的段落显示出来</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：让隐藏的段落显示出来-->
+    <p style="display: block">我是显示段落</p>
+    <p style="display: none">我是隐藏段落</p>
+
+</body>
+<script>
+    $('p:hidden').css('display', 'block');
+</script>
+</html>

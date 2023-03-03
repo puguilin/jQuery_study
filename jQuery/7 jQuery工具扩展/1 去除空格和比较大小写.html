@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        min(a, b) : 返回较小的值
+        max(c, d) : 返回较大的值
+        leftTrim()  : 去掉字符串左边的空格
+        rightTrim() : 去掉字符串右边的空格
+        trim（）  ： 去掉字符串两边的空格
+
+    -->
+    <p>控制台查看 </p>
+</body>
+<script>
+    // 扩展jQuery工具的方法
+    $.extend({
+        min: function (a, b) {
+            return a < b ? a : b
+        },
+        max: function (a, b) {
+            return a > b ? a : b
+        },
+        leftTrim: function (str) {
+            return str.replace(/^\s+/, '')
+        },
+        rightTrim: function (str) {
+            return str.replace(/\s+$/, '')
+        },
+        trim: function (str) {
+            return str.replace( /^(\s|\u00A0)+|(\s|\u00A0)+$/g, "")
+        }
+    });
+    // 测试扩展jQuery工具的方法
+    console.log($.min(3, 5));
+    console.log($.max(3, 5));
+    console.log('-----' + $.leftTrim('     hello     ') + '-----');
+    console.log('-----' + $.rightTrim('     hello     ') + '-----');
+    console.log('-----' + $.trim('     hello     ') + '-----');
+
+</script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击图片缓缓放大</title>
+</head>
+<script type="text/javascript" src="./extend/animateManage.js"></script>
+<body>
+    <h2>点击图片缓缓放大--图片 Width范围 <= 500px</h2>
+    <div class="slowlyEnlarge">
+        <img src='./images/psu2.jpg' id='slowlyEnlarge' />
+    </div>
+</body>
+
+<script type="text/javascript">
+    window.onload = function(){
+        var e = document.getElementById("slowlyEnlarge");
+        e.onclick = function(){
+            if(e.offsetWidth + 50 >= 500){
+                return;
+            }
+            new animateManage({
+                "context":e,//被操作的元素
+                "effect":"linear",
+                "time": 200,//持续时间
+                "starCss":{//元素的起始值偏移量
+                    "width": e.offsetWidth
+                },
+                "css" :{//元素的结束值偏移量
+                    "width":e.offsetWidth + 50
+                }
+            }).init();
+        }
+    };
+</script>
+<style>
+    /*======================点击图片缓缓放大========================*/
+    #slowlyEnlarge{
+        width: 100px;
+    }
+    .slowlyEnlarge{
+        height: 220px;
+    }
+</style>
+</html>

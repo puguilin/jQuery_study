@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>attr()修改属性</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--方法描述：专门操作属性值为非布尔值的属性，该方法读写一体。-->
+    <!--需求描述：设置p标签的title属性为”我是attr修改后的段落标题“-->
+    <p id="content" title="我是段落标题">我是段落</p>
+
+</body>
+<script>
+    $('#content').attr('title', '我是attr修改后的段落标题');
+    console.log($('#content').attr('title'));
+</script>
+</html>

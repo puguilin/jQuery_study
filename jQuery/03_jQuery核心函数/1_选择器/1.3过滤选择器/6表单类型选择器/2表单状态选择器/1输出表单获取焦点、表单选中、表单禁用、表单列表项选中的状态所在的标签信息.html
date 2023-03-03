@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输出表单获取焦点、表单选中、表单禁用、表单列表项选中的状态所在的标签信息</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--需求描述：输出表单获取焦点、表单选中、表单禁用、表单列表项选中的状态所在的标签信息-->
+    <form>
+        <input type="text" autofocus><br>
+        <input type="checkbox" checked>复选框<br>
+        <input type="radio" disabled>单选框<br>
+        <select>
+            <option selected>列表项1</option>
+            <option>列表项2</option>
+        </select>
+    </form>
+
+</body>
+<script>
+    console.log($(':focus')[0]);
+    console.log($(':checked')[0]);
+    console.log($(':disabled')[0]);
+    console.log($(':selected')[0]);
+</script>
+</html>

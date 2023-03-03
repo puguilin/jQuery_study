@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加单击事件</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：在选定的元素上绑定一个或多个事件处理函数。
+        需求描述：为按钮添加单击事件，当按钮单击的时候，向控制台输出“按钮被单击了”
+    -->
+    <button>按钮</button>
+
+</body>
+<script>
+    $('button').on('click',function () {
+        console.log('按钮被单击了');
+    });
+
+</script>
+</html>

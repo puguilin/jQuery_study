@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1 focus() 聚焦时触发</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当获取焦点时触发所绑定的函数。
+        需求描述：当文本框获取焦点时，设置其背景为红色
+    -->
+    <input type="text">
+
+</body>
+<script>
+    $(':text').focus(function () {
+        $(this).css('background', 'red');
+    });
+</script>
+</html>

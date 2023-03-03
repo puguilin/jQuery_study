@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：判断p标签是否包含”beauty“的样式-->
+    <p class="beauty"></p>
+</body>
+<script>
+    console.log($('p').hasClass('beauty'));
+</script>
+<style>
+    .beauty {
+        font-weight: bold;
+        font-size: 18px;
+        color: coral;
+    }
+</style>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>select() 被选择是触发</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当内容选择时触发所绑定的函数。
+        需求描述：当文本框的内容被选择时，就向控制台输出当前文本框的内容
+    -->
+    <input type="text" value="123456">
+
+</body>
+<script>
+    $('input').select(function () {
+        console.log($(this).val());
+    });
+
+</script>
+</html>

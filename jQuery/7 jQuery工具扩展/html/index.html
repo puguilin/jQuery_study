@@ -1,0 +1,93 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Page-Enter" content="revealTrans(Duration=1.0,Transition=14)">
+    <title>第5章 页面控制</title>
+    <!--IE地址栏前换成自己的图标-->
+    <link rel="Shortcut Icon" href="../images/favicon.ico">
+    <!--可以在收藏夹中显示出你的图标 -->
+    <link rel="Bookmark" href="../images/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="pManage.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="noprint">
+        <h2>打开新页面</h2>
+        <input id='openNewPage' data-href='http://www.baidu.com/' type="button" value="打开百度网站" />
+        <h2>打开指定大小的窗口</h2>
+        宽度:<input id='windowWidth'/>
+        高度:<input id='windowHeight'/>
+        <input id='openwindow' type="button" data-href='http://www.baidu.com/' value="打开新窗口" />
+
+        <h2>刷新iframe窗口</h2>
+        <input id='updateIframeBtn' type="button" value="刷新iframe窗口" />
+        <iframe src="child.html" width=850 height=300 id="updateIframe" name="updateIframe"></iframe>
+        <h2>刷新当前页面</h2>
+        <input id='updatePage' type="button" value="刷新"/>
+
+    </div>
+
+
+    <script type="text/javascript">
+		//为了直观方便大家查看  将待测试代码放入当前页
+		; (function (_PM, window, document, undefined) {
+
+            var _W = window,
+				document = _W.document,
+
+                //继承_PM ，区别于原型链继承
+                project = _PM || {};
+                ;
+			//初始化
+			project.init = function () {
+				this.initEvents();
+			}
+
+			//初始化事件
+			project.initEvents = function () {
+                 //打开新页面===================================
+                this.openNewPage(this.getElement("openNewPage"))
+
+                //打开新窗口，并设置宽、高==================
+                this.getElement("openwindow").onclick = function(){
+                    project.openwindow(
+                            project.getElement("windowWidth").value,
+                            project.getElement("windowHeight").value,
+                            this.getAttribute("data-href")
+                    );
+                }
+
+
+                //刷新iframe窗口===========
+                this.getElement("updateIframeBtn").onclick = function(){
+                    project.updateIframe();
+                }
+
+                //刷新当前页面==========================
+                this.getElement("updatePage").onclick = function(){
+                    project.updatePage();
+                }
+
+
+
+                //永远都会带着框架================
+                //this.existFrame();
+
+
+                //添加到收藏夹   ===========================
+                this.getElement("addFavorite").onclick = function(){
+                    project.addFavorite("http://qingjs.com", "QingJs框架");
+                };
+
+
+			}
+
+			window.onload = function(){
+                project.init();
+            };
+		})(pManage , window, document);
+	</script>
+</body>
+</html>

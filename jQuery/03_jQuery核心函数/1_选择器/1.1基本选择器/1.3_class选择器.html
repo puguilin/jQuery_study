@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class选择器</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：选择页面中所有class为red的段落，设置其背景为红色-->
+    <p class="red">我是段落1</p>
+    <p>我是段落2</p>
+    <p class="red">我是段落3</p>
+
+</body>
+<script>
+    $('.red').css('background', 'red');
+</script>
+</html>

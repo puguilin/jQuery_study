@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>匹配元素紧邻的前一个兄弟元素</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：获取集合中每个匹配元素紧邻的前一个兄弟元素，可以提供一个可选的选择器来进行筛选。
+        需求描述：获取id为two元素的前一个兄弟元素并输出
+    -->
+    <ul>
+        <p>我是段落1</p>
+        <li>列表项1</li>
+        <li id="two">列表项2</li>
+        <li>列表项3</li>
+        <p>我是段落2</p>
+    </ul>
+
+</body>
+<script>
+    console.log($('#two').prev()[0]);
+
+</script>
+</html>

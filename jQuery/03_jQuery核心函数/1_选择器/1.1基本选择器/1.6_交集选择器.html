@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>交集选择器</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：选择页面段落中所有class为red的段落，设置其背景为红色-->
+    <p class="red">我是段落1</p>
+    <p class="red">我是段落2</p>
+    <p class="red">我是段落3</p>
+    <div class="red">我是div1</div>
+    <div class="red">我是div2</div>
+    <div class="red">我是div3</div>
+
+</body>
+<script>
+    $('p.red').css('background', 'red');
+</script>
+</html>

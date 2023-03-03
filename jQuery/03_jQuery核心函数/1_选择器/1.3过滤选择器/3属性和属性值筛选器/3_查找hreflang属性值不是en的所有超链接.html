@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查找hreflang属性值不是en的所有超链接</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：查找hreflang属性值不是en的所有超链接，设置其背景为红色-->
+    <a href="" hreflang="en">en</a>
+    <a href="" hreflang="en-UK">en-UK</a>
+    <a href="" hreflang="zh-CN">zh-CN</a>
+
+</body>
+<script>
+    $('a[hreflang!="en"]').css('background', 'red');
+
+
+</script>
+</html>

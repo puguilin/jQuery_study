@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>读取样式属性</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：获取div的背景颜色和字体颜色并输出-->
+    <div style="background: red;color: white">我是div</div>
+
+</body>
+<script>
+    console.log($('div').css('background'));
+    console.log($('div').css('color'));
+
+</script>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mouseup() 当鼠标左键松开的时候调用</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当鼠标左键松开的时候调用所绑定的函数。
+        需求描述：当鼠标左键松开的时候，控制台输出“鼠标左键松开”
+    -->
+    <button>按钮</button>
+
+</body>
+<script>
+    $('button').mouseup(function () {
+        console.log('鼠标左键松开');
+    });
+
+</script>
+</html>

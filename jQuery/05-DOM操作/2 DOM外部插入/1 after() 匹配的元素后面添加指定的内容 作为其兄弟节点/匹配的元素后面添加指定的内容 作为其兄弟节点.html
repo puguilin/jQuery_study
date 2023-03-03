@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>匹配的元素后面添加指定的内容 作为其兄弟节点</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--    需求描述：在div的后边插入一个段落-->
+    <div>我是div</div>
+
+</body>
+<script>
+    var after = '<p>我是段落</p>';
+    $('div').after(after);
+
+</script>
+</html>

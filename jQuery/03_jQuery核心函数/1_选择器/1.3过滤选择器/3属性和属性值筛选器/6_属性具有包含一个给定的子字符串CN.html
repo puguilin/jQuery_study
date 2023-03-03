@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性具有包含一个给定的子字符串CN</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：选择hreflang属性具有包含一个给定的子字符串CN的超链接，设置其背景为红色-->
+    <a href="" hreflang="en">en</a>
+    <a href="" hreflang="en-UK">en-UK</a>
+    <a href="" hreflang="zh-CN">zh-CN</a>
+
+</body>
+<script>
+    $('a[hreflang*="CN"]').css('background', 'red');
+</script>
+</html>

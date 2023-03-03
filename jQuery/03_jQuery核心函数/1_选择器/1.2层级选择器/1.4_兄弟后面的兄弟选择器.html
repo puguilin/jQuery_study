@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>兄弟后面的兄弟选择器</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--选中id为box的后边的兄弟li，设置其背景为红色-->
+    <ul>
+        <span>我是ul的span1</span>
+        <li id="box">我是li1 <span>我是li1的span1</span></li>
+        <li>我是li2 <span>我是li2的span2</span></li>
+        <li>我是li3 <span>我是li3的span3</span></li>
+        <span>我是ul的span2</span>
+    </ul>
+
+</body>
+<script>
+    $('#box~li').css('background', 'red');
+
+</script>
+</html>

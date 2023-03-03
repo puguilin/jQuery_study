@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>submit() 提交表单时触发</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当表单提交时触发所绑定的函数。
+        需求描述：当表单提交的时候，弹出对话框“表单提交了”
+    -->
+    <form action="#">
+        <input type="submit">
+    </form>
+
+</body>
+<script>
+    $('form').submit(function () {
+        alert('表单提交了');
+    });
+
+</script>
+</html>

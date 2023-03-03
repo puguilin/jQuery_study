@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后代选择器</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：选择ul下的所有span元素，设置其背景为红色-->
+    <ul>
+        <span>我是ul的span1</span>
+        <li>我是li1 <span>我是li1的span1</span></li>
+        <li>我是li2 <span>我是li2的span2</span></li>
+        <li>我是li3 <span>我是li3的span3</span></li>
+        <span>我是ul的span2</span>
+        <span>我是ul的span3</span>
+    </ul>
+
+
+</body>
+<script>
+    $('ul span').css('background', 'red');
+
+</script>
+</html>

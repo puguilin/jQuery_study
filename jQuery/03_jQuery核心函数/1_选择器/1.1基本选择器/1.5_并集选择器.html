@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>并集选择器</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：选择页面中所有的段落与按钮，设置其背景为红色 -->
+    <p>我是段落</p>
+    <button>我是按钮</button>
+    <div>我是div</div>
+    <h1>我是大标题</h1>
+</body>
+<script>
+    $('p,button').css('background', 'red');
+</script>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>删除所有匹配元素的子元素</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        需求描述：将ul列表下所有的p子节点全部移除
+        注意：同时移除元素上的事件及 jQuery 数据 和empty（）区分开
+    -->
+    <ul>
+        <li>列表项1</li>
+        <p>我是段落1</p>
+        <li>列表项2</li>
+        <p>我是段落2</p>
+        <li>列表项3</li>
+    </ul>
+
+</body>
+<script>
+    $('ul>p').remove();
+    //或者
+    // $('ul>p').remove();
+
+</script>
+</html>

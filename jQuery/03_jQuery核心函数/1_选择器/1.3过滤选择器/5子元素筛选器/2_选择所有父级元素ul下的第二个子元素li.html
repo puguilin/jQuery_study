@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择所有父级元素ul下的第二个子元素li</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：选择所有父级元素ul下的第二个子元素li，设置其背景为红色-->
+    <ul>
+        <li>我是列表项1</li>
+        <li>我是列表项2</li>
+        <li>我是列表项3</li>
+        <li>我是列表项4</li>
+    </ul>
+
+</body>
+<script>
+    $('ul li:nth-child(2)').css('background', 'red');
+
+
+</script>
+</html>

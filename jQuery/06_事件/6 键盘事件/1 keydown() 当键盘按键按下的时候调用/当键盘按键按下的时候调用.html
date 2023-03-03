@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>当键盘按键按下的时候调用</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当键盘按键按下的时候调用绑定的函数。
+        需求描述：当键盘按键按下的时候，输出当前的按键
+    -->
+    <input type="text">
+
+</body>
+<script>
+    $(':text').keydown(function (event) {
+        console.log(event.key);
+    });
+
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$.get方法</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：方法描述：使用一个HTTP get请求从服务器加载数据。-->
+    <td>使用一个HTTP get请求从服务器加载数据</td>
+</body>
+<script>
+    $.ajax({
+        url: url,
+        data: data,
+        success: success,
+        dataType: dataType
+    });
+
+    $.get('/user/login', {username: 'zhangsan', password: '123456'}, function (response) {
+        alert(response);
+    });
+
+</script>
+</html>

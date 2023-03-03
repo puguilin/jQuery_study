@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>change() 内容改变时触发</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当内容改变时触发所绑定的函数。
+        需求描述：当文本框内容改变时，就向控制台输出当前文本框的内容
+        需求描述二：当选择框的内容改变时，就向控制台和表单里输出当前选中项的内容
+    -->
+    <input type="text">
+    <select>
+        <option>请选择</option>
+        <option>河北</option>
+        <option>河南</option>
+        <option>上海</option>
+        <option>北京</option>
+        <option>广东</option>
+    </select>
+
+
+</body>
+<script>
+    $(':text').change(function () {
+        console.log($(this).val());
+    });
+    $('select').change(function () {
+        $(':text').val( $('select').val())
+        console.log($(this).val());
+    });
+
+
+</script>
+</html>

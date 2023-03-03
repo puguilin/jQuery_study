@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>遍历数组</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：给定一个数组，使用$.each方法进行遍历输出-->
+    <td>打开控制台查看 数组10-50</td>
+</body>
+<script>
+    var arr = [10, 90, 20, 80, 30, 70, 40, 60, 50];
+    $.each(arr, function (index, element) {
+        console.log(index, element);
+    });
+
+/*
+    输出的结果是：
+        0 10
+        1 90
+        2 20
+        3 80
+        4 30
+        5 70
+        6 40
+        7 60
+        8 50
+*/
+
+</script>
+</html>

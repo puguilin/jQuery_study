@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>匹配的元素前面添加指定的内容 作为其兄弟节点</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：在div的前边插入一个段落-->
+    <div>我是div</div>
+
+</body>
+<script>
+    var before = '<p>我是段落</p>';
+    $('div').before(before);
+
+</script>
+</html>

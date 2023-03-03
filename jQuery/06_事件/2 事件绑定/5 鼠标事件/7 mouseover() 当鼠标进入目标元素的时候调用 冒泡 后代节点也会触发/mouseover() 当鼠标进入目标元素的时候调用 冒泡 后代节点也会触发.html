@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mouseover() 当鼠标进入目标元素的时候调用 冒泡 后代节点也会触发</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当鼠标进入目标元素的时候调用所绑定的函数。
+         注意：
+                mouseenter事件和mouseover的不同之处是事件的冒泡的方式。mouseenter 事件只会在绑定它的元素上被调用，而不会在后代节点上被触发。
+        需求描述：
+                创建两个div，当鼠标移到外层div的时候，向控制台输出“mouse over”，鼠标移到内层div的时候，向控制台输出“mouse over”，
+                当鼠标移到外层div的时候，向控制台输出“mouse over”
+    -->
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+
+</body>
+<script>
+    $('.outer').mouseover(function () {
+        console.log('mouse over');
+    });
+
+</script>
+<style>
+    .outer {
+        width: 200px;
+        height: 200px;
+        background: coral;
+    }
+
+    .inner {
+        width: 100px;
+        height: 100px;
+        background: pink;
+    }
+
+</style>
+</html>

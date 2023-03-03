@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格内容的展开和折叠效果</title>
+</head>
+<script type="text/javascript" src="./extend/animateManage.js"></script>
+
+<body>
+    <h2>表格内容的展开和折叠效果</h2>
+    <h5>例子中，会演示隐藏/展示第一行表格内容</h5>
+    <table id='tableOutIn' border="1" width="500">
+        <tr name ="tableOutIn1">
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr name ="tableOutIn1">
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+<input value='展开' type="button" id='openRow' />
+<input value='收缩' type="button" id='inRow' />
+
+</body>
+<script type="text/javascript">
+    window.onload = function(){
+        /************************************
+         * 表格内容的展开和折叠效果   start *
+         ************************************/
+
+        tableOutIn = function(e, type){
+            if(type != "open"){
+                e.style.display = "none"//隐藏指定的行元素
+            }
+            else{
+                e.style.display = "table-row"//table-row设置此元素会作为一个表格行显示
+            }
+        }
+
+
+        var _tableOutIn = document.getElementsByName("tableOutIn1");
+        document.getElementById("openRow").onclick = function(){//展开行 openRow
+
+            for (var i=0;i<_tableOutIn.length;i++){
+                tableOutIn(_tableOutIn[i], "open")
+            }
+
+        }
+
+        document.getElementById("inRow").onclick = function(){//收缩行 inRow
+            for (var i=0;i<_tableOutIn.length;i++){
+                tableOutIn(_tableOutIn[i])
+            }
+
+
+        }
+    };
+</script>
+</html>

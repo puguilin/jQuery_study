@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>读取/设置滚动条的Y坐标，该方法读写合一</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+
+<!--需求描述：设置页面的宽度为2000px，设置滚动条的X轴坐标为300px，要求兼容各种浏览器-->
+
+
+
+</body>
+<script>
+    //读取页面滚动条的Y坐标(兼容chrome和IE)
+    var scrollLeft = $(document.body).scrollTop()+$(document.documentElement).scrollTop();
+    //设置页面滚动条滚动到指定位置(兼容chrome和IE)
+    $('body,html').scrollTop(60);
+
+    <!--读取页面滚动条的Y坐标(兼容chrome和IE)-->
+    $('body').css('width', '200px');
+    $('html,body').scrollTop(300);
+
+</script>
+<style>
+
+</style>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dblclick() 鼠标双击事件</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当鼠标双击时调用所绑定的函数。
+        需求描述：为按钮绑定一个双击函数，然后双击按钮，在控制台输出“按钮被单击了”
+    -->
+    <button>按钮</button>
+
+</body>
+<script>
+    $('button').dblclick(function () {
+        console.log('按钮被双击了');
+    });
+
+</script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>undelegate()  移除事件委托</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：移除事件委托。
+        需求描述：要求移除上一节中设置的事件委托，然后在分别点击li进行验证是否移除事件委托
+    -->
+    <ul>
+        <li>1111</li>
+        <li>2222</li>
+        <li>3333</li>
+        <li>4444</li>
+    </ul>
+</body>
+<script>
+    // 设置事件委托
+    $('ul').delegate('li', 'click', function () {
+        this.style.background = 'red';
+    });
+
+    // 移除事件委托
+    $('ul').undelegate('click');
+
+</script>
+</html>

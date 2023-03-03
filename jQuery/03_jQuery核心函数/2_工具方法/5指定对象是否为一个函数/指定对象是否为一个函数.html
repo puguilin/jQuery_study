@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>指定对象是否为一个函数</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：给定一个对象，输出该对象是不是函数类型-->
+    <td>控制台查看 输出该对象是不是函数类型</td>
+
+</body>
+<script>
+    var fun = function () {
+        console.log("hello");
+    };
+    console.log($.isFunction(fun));
+</script>
+</html>

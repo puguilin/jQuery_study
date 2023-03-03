@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打开链接时弹出确认框</title>
+</head>
+<script type="text/javascript" src="./extend/animateManage.js"></script>
+
+<body>
+    <h2>打开链接时弹出确认框</h2>
+    <a id='linkConfirmation' data-msg='您真的要打开 “百度” 的连接吗？' data-target='http://www.baidu.com/' href='javascript:void(0)'>百度</a>
+</body>
+<script type="text/javascript">
+    window.onload = function(){
+        document.getElementById("linkConfirmation").onclick = function(){//点击链接
+            if(window.confirm(this.getAttribute("data-msg"))){//弹出确认框
+                window.open(this.getAttribute("data-target"));//如果确认在跳转
+            }
+        }
+    };
+</script>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素内部的最后面插入指定内容</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+<!--    描述：为当前的ul向后添加一个列表项-->
+    <ul>
+        <li>我是列表项1</li>
+        <li>我是列表项2</li>
+    </ul>
+
+</body>
+<script>
+    var last = '<li>我是插入到最后的一个列表项</li>';
+    $('ul').append(last);
+
+</script>
+</html>

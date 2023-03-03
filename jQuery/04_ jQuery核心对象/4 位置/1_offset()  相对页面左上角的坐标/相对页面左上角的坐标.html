@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：获取div相对页面左上角的坐标-->
+    <div class="box"></div>
+
+</body>
+<script>
+    var offset = $('.box').offset();
+    console.log(offset.left, offset.top);
+</script>
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+        background: coral;
+    }
+
+</style>
+</html>

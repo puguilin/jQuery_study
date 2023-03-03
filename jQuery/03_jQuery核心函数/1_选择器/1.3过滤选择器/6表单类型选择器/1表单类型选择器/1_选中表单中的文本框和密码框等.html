@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选中表单中的文本框、密码框、文件框、按钮、提交按钮、重置按钮等</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：选中表单中的文本框、密码框、文件框、按钮、提交按钮、重置按钮等，设置其背景为红色-->
+    <form>
+        <input type="text"><br>
+        <input type="password"><br>
+        <input type="file"><br>
+        <input type="button" value="按钮"><br>
+        <input type="submit" value="提交按钮"><br>
+        <input type="reset" value="重置按钮"><br>
+    </form>
+
+</body>
+<script>
+    $(':text').css('background', 'red');
+    $(':password').css('background', 'red');
+    /*或者加input*/
+    $('input:file').css('background', 'red');
+    $('input:button').css('background', 'red');
+    $('input:submit').css('background', 'red');
+    $('input:reset').css('background', 'red');
+</script>
+</html>

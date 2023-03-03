@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>禁止输入</title>
+</head>
+<body>
+<h2>禁止输入</h2>
+<div>JavaScript控制<input type="text" value="禁止输入" id='inhibitingInput' /></div>
+
+
+<div>表单元素特殊属性 一<input type="text" value="没禁止输入" /> </div>
+<div>表单元素特殊属性 二<input type="text" value="没禁止输入" /> </div>
+
+<div>表单元素特殊属性 一<input type="text" value="禁止输入"  disabled /> </div>
+<div>表单元素特殊属性 二<input type="text" value="禁止输入"  disabled="disabled"/> </div>
+<div>表单元素特殊属性 三<input type="text" value="禁止输入"  readonly /> </div>
+
+</body>
+<script type="text/javascript">
+    window.onload = function(){
+        var _inhibitingInput = document.getElementById("inhibitingInput");
+        //第一种写法  控制失去焦点
+        _inhibitingInput.onfocus = function(){
+            _inhibitingInput.blur();
+        }
+
+        //第二中写法 通过keyup 与blur 组合使用
+        /* 		var noText = function (){
+         _inhibitingInput.value = "";
+         }
+
+         _inhibitingInput.onkeyup =
+         _inhibitingInput.onblur = noText; */
+    };
+</script>
+</html>

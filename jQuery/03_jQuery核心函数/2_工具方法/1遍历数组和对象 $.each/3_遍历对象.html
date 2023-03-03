@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>遍历对象</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+
+    <!--需求描述：给定一个对象，使用$.each方法进行遍历输出-->
+    <td>遍历对象  控制台查看</td>
+</body>
+<script>
+    var obj = {
+        name: 'Tom',
+        age: 28,
+        speak: function () {
+            console.log("还可以以吧")
+        }
+    };
+    $.each(obj, function (key, value) {
+        console.log(key, value);
+    });
+    obj.speak();
+    /*
+    * 控制台输出
+    *
+    * name Tom
+    * age 28
+    * speak ƒ () {}
+    *
+    * */
+
+</script>
+</html>

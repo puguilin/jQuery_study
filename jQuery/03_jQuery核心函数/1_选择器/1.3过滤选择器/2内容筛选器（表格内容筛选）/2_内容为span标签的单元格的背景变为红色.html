@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容为span标签的单元格的背景变为红色</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+    <!--需求描述：实现让内容为span标签的单元格的背景变为红色-->
+    <table cellspacing="0px" cellpadding="10px" border="1px">
+        <tr><td>张三</td><td>男</td><td>21</td></tr>
+        <tr><td>李四</td><td><span>女</span></td><td>22</td></tr>
+        <tr><td>王五</td><td>男</td><td>23</td></tr>
+        <tr><td>赵六</td><td><span>女</span></td><td>24</td></tr>
+    </table>
+
+
+</body>
+<script>
+    $('td:has(span)').css('background', 'red');
+</script>
+</html>

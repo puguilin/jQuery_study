@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>当鼠标指针在元素内移动时触发</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当鼠标指针在元素内移动时，mousemove事件就会被触发，任何HTML元素都可以接受此事件。
+        需求描述：鼠标在div内移动，获取当前鼠标相对div的位置坐标
+    -->
+    <div class="outer"></div>
+
+</body>
+<script>
+    $('.outer').mousemove(function (event) {
+        console.log(event.offsetX, event.offsetY);
+    });
+
+</script>
+<style>
+    .outer {
+        width: 200px;
+        height: 200px;
+        background: rgba(64, 59, 19, 0.92);
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+</style>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>同时绑定 mouseenter和 mouseleave鼠标进入和离开</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：.hover()方法是同时绑定 mouseenter和 mouseleave事件。
+        需求描述：当鼠标进入div设置背景为红色，当鼠标移出div设置背景为绿色，默认背景为黑色
+    -->
+    <div class="outer"></div>
+
+</body>
+<script>
+    $('.outer').hover(function () {
+        $(this).css('background', 'red');
+    }, function () {
+        $(this).css('background', 'green');
+    });
+
+</script>
+<style>
+    .outer {
+        width: 200px;
+        height: 200px;
+        background: black;
+    }
+
+</style>
+</html>

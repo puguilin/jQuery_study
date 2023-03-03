@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>当鼠标离开目标元素的时候调用</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<body>
+    <!--
+        方法描述：当鼠标离开目标元素的时候调用所绑定的函数。
+        需求描述：创建两个div，当鼠标移出外层div的时候，向控制台输出“mouse leave”
+    -->
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+</body>
+<script>
+    $('.outer').mouseleave(function () {
+        console.log('mouse leave');
+    });
+</script>
+<style>
+    .outer {
+        width: 200px;
+        height: 200px;
+        background: coral;
+    }
+
+    .inner {
+        width: 100px;
+        height: 100px;
+        background: pink;
+    }
+
+</style>
+</html>
